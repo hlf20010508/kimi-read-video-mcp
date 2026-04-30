@@ -1,6 +1,6 @@
 {
   "name": "kimi-read-video-mcp",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Minimal MCP server that exposes a single kimi_read_video tool for Moonshot and Kimi Coding.",
   "type": "module",
   "main": "./dist/server.js",
