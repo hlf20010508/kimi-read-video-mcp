@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+import('../dist/server.js')
+  .then(({ startServer }) => startServer())
+  .catch(error => {
+    console.error(error);
+    process.exitCode = 1;
+  });
